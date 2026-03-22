@@ -1,34 +1,82 @@
 # Hotel Guest Satisfaction Analysis (Europe)
 
-## Overview
-This project is a quantitative marketing analytics study examining the key drivers of hotel guest satisfaction among European travelers. Using a large real-world dataset, the analysis focuses on identifying which factors meaningfully influence satisfaction scores and translating findings into actionable business insights.
+## Objective
+Identify key drivers of hotel guest satisfaction using large-scale review data and determine which operational and behavioral factors most strongly impact customer experience.
 
-## Dataset & Methodology
-- Secondary dataset sourced from a large European hotel review dataset (Kaggle)
-- Sample size: approximately 78,000 guest reviews
-- Dependent variable: overall satisfaction score
-- Independent variables include demographics, booking channel, travel type, and service quality ratings
-- Data analyzed using SPSS (descriptive statistics, correlation analysis, and one-way ANOVA)
+---
 
-## Files Included
-- **PresentationHotel.pdf** – Final presentation summarizing the research question, analysis approach, key findings, and managerial recommendations  
-- **Output1.spv** – SPSS output file containing statistical analyses referenced in the presentation  
+## Dataset
+- Source: European hotel review dataset (Kaggle)  
+- Sample size: 78,651 guest reviews  
+- Dependent variable: Overall satisfaction score  
+- Independent variables: Cleanliness, booking channel, travel type, demographics (age, gender)  
+
+---
+
+## Methodology
+- Descriptive statistics to assess satisfaction distribution  
+- Pearson correlation to evaluate continuous relationships  
+- One-way ANOVA to analyze differences across customer segments  
+- Analysis conducted using SPSS  
+
+---
 
 ## Key Findings
-- Cleanliness is the strongest continuous predictor of guest satisfaction  
-- Booking channel and travel type show significant practical effects on satisfaction  
-- Demographic variables such as age and gender have limited explanatory power  
 
-## Managerial Insights
-- Prioritize cleanliness and housekeeping quality  
-- Improve the direct booking experience to close satisfaction gaps  
-- Develop tailored offerings for independent travelers  
+### Primary Driver of Satisfaction
+- **Cleanliness is the strongest continuous predictor**  
+  - Correlation: r = 0.296 (moderate)  
+  - Explains ~8.8% of variation in satisfaction  
+  → Indicates operational quality is a key driver of customer experience  
 
-## Key Skills Demonstrated
-- Marketing and business analytics  
-- Statistical analysis using SPSS  
-- Interpretation of large-scale datasets  
-- Translating data insights into business recommendations  
+---
 
-## Notes
-This project is shared for portfolio and recruiting purposes. Raw datasets are not included to maintain data governance best practices.
+### High-Impact Structural Differences
+- **Booking Channel:**  
+  - Agency: 68.79 vs Hotel Direct: 49.66 (~19-point gap)  
+  → Suggests significant differences in expectations, experience, or service delivery  
+
+- **Travel Type:**  
+  - Group: 64.96 vs Independent: 46.03 (~19-point gap)  
+  → Independent travelers represent a lower-satisfaction segment  
+
+---
+
+### Low-Impact Variables
+- **Age:** Weak correlation (r = 0.063), ~0.4% variance explained  
+- **Gender:** Statistically significant but negligible practical effect  
+
+→ Demographics are poor predictors of satisfaction relative to behavioral and service factors  
+
+---
+
+## Business Implications
+
+- **Prioritize cleanliness as a core operational lever**  
+  Cleanliness is the strongest continuous predictor of satisfaction, making housekeeping quality a high-ROI investment for improving guest experience.
+
+- **Fix the direct booking experience (critical gap)**  
+  Guests who book directly report significantly lower satisfaction than agency users (~19-point difference), indicating issues in UX, expectation setting, or post-booking service.
+
+- **Target independent travelers as a high-risk segment**  
+  Independent travelers have substantially lower satisfaction scores than group travelers, suggesting unmet needs or lack of tailored offerings.
+
+- **Shift from demographic to behavioral segmentation**  
+  Demographic variables have minimal explanatory power. Segmentation strategies should focus on booking behavior and travel type.
+
+- **Focus on high-impact drivers rather than broad improvements**  
+  Satisfaction is driven by a limited set of key variables (cleanliness, channel, travel type), indicating that targeted operational improvements will outperform generalized enhancements.
+
+---
+
+## Artifacts
+- 📄 Final Presentation (PresentationHotel.pdf)  
+- 📊 SPSS Output (Output1.spv)  
+
+---
+
+## Skills Demonstrated
+- Marketing analytics and customer experience analysis  
+- Statistical analysis (correlation, ANOVA)  
+- Large-scale dataset analysis (~78K observations)  
+- Translating data into operational and strategic recommendations  
